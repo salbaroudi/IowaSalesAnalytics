@@ -1,0 +1,17 @@
+beautifulsoup4
+scrapy
+matplotlib
+sqlalchemy
+numpy
+scipy
+pandas
+praw
+jupyter
+altair
+pytest
+hypothesis
+statsmodels
+vega
+sklearn
+statsmodels
+dask[complete]
