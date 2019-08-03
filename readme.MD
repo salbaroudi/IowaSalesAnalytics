@@ -6,12 +6,16 @@ data.
 
 ### Tech Stack:
 
-Dask, Pandas, Matplotlib, Altair, Tableau Public, scikit-learn, Vega.
+For the pipeline, PyCharm Professional + Data Grip 
+will be used to load the data, check integrity, and 
+even run the jupyter ecosystem!
+
+Pandas, Matplotlib, Altair, Tableau Public, scikit-learn, Vega.
 
 Front End Visualizations: Vega+Jquery and/or
 Tableau Public Embedded visualiaztions.
 
-SimpleHTTPServer wil be used to render the pages.
+Flask will be used to render the pages
 
 
 ### Analytic Context:
