@@ -31,13 +31,13 @@ inside. They are all of the same type, by definition (integer, blob, etc)
 - User-defined Integrity: rules concerning users.
 
 
-##Creating a Database Connection:
+### Creating a Database Connection:
 
 Simply click on the new database connection tab, and fill out the
 form.
 
 
-##Adding a table:
+### Adding a table:
 
 Right click on the Left Database Area of the screen. import a csv
 file and follow the dialogue to configure the table header. 
@@ -48,6 +48,31 @@ It can be accessed and viewed from here.
 Once this is done, you can drag and drop from the Files area (on
 the right), straight onto the schema > public area. This can be
 done quickly for all files.
+
+### Seeing underlying scripts:
+
+For each table generated, you can see the underlying
+sql by right-clicking on the table, and selecting
+"Generate DDL to X". X is choice of output.
+
+This can be done at any level of the database, including
+the root database table itself. Scripts to generate 
+the child tables below will also be included in the DDL.
+
+
+
+### Integrating SQL Scripts into Project:
+
+Simply open your project folder in the Files Area (right 
+hand side), and place scripts in it.
+
+
+##Questions:
+
+- When the DDL script is run, how do you indicate
+the file path to csv or other files?
+
+
 
 
 
